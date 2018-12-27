@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: 199eed9ca04a7e840beb2e4f92dac82e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: idle investigate loop
+    100004: jt_Ankle_L
+    100006: jt_Ankle_R
+    100008: jt_Clavicle_L
+    100010: jt_Clavicle_R
+    100012: jt_ClawInner_L
+    100014: jt_ClawInner_R
+    100016: jt_ClawMiddle_L
+    100018: jt_ClawMiddle_R
+    100020: jt_ClawOutter_L
+    100022: jt_ClawOutter_R
+    100024: jt_Cog_C
+    100026: jt_Elbow_L
+    100028: jt_Elbow_R
+    100030: jt_Eye_L
+    100032: jt_Eye_R
+    100034: jt_FingerInner_L
+    100036: jt_FingerInner_R
+    100038: jt_FingerOutter_L
+    100040: jt_FingerOutter_R
+    100042: jt_Foot_L
+    100044: jt_Foot_R
+    100046: jt_HandClawInner_L
+    100048: jt_HandClawInner_R
+    100050: jt_HandClawOutter_L
+    100052: jt_HandClawOutter_R
+    100054: jt_Head_C
+    100056: jt_Hip_L
+    100058: jt_Hip_R
+    100060: jt_Hips_C
+    100062: jt_Jaw_C
+    100064: jt_Knee_L
+    100066: jt_Knee_R
+    100068: jt_Neck1_C
+    100070: jt_Neck2_C
+    100072: jt_Neck3_C
+    100074: jt_NeckMuscle_C
+    100076: jt_Shoulder_L
+    100078: jt_Shoulder_R
+    100080: jt_Spine1_C
+    100082: jt_Spine2_C
+    100084: jt_Tail1_C
+    100086: jt_Tail2_C
+    100088: jt_Tail3_C
+    100090: jt_Tail4_C
+    100092: jt_Tail5_C
+    100094: jt_Tail6_C
+    100096: jt_Thigh_L
+    100098: jt_Thigh_R
+    100100: jt_ThighMuscle_L
+    100102: jt_ThighMuscle_R
+    100104: jt_ToeInner_L
+    100106: jt_ToeInner_R
+    100108: jt_ToeMiddle_L
+    100110: jt_ToeMiddle_R
+    100112: jt_ToeOutter_L
+    100114: jt_ToeOutter_R
+    100116: jt_Tongue1_C
+    100118: jt_Tongue2_C
+    100120: jt_Wrist_L
+    100122: jt_Wrist_R
+    100124: Null
+    100126: Skm
+    400000: //RootNode
+    400002: idle investigate loop
+    400004: jt_Ankle_L
+    400006: jt_Ankle_R
+    400008: jt_Clavicle_L
+    400010: jt_Clavicle_R
+    400012: jt_ClawInner_L
+    400014: jt_ClawInner_R
+    400016: jt_ClawMiddle_L
+    400018: jt_ClawMiddle_R
+    400020: jt_ClawOutter_L
+    400022: jt_ClawOutter_R
+    400024: jt_Cog_C
+    400026: jt_Elbow_L
+    400028: jt_Elbow_R
+    400030: jt_Eye_L
+    400032: jt_Eye_R
+    400034: jt_FingerInner_L
+    400036: jt_FingerInner_R
+    400038: jt_FingerOutter_L
+    400040: jt_FingerOutter_R
+    400042: jt_Foot_L
+    400044: jt_Foot_R
+    400046: jt_HandClawInner_L
+    400048: jt_HandClawInner_R
+    400050: jt_HandClawOutter_L
+    400052: jt_HandClawOutter_R
+    400054: jt_Head_C
+    400056: jt_Hip_L
+    400058: jt_Hip_R
+    400060: jt_Hips_C
+    400062: jt_Jaw_C
+    400064: jt_Knee_L
+    400066: jt_Knee_R
+    400068: jt_Neck1_C
+    400070: jt_Neck2_C
+    400072: jt_Neck3_C
+    400074: jt_NeckMuscle_C
+    400076: jt_Shoulder_L
+    400078: jt_Shoulder_R
+    400080: jt_Spine1_C
+    400082: jt_Spine2_C
+    400084: jt_Tail1_C
+    400086: jt_Tail2_C
+    400088: jt_Tail3_C
+    400090: jt_Tail4_C
+    400092: jt_Tail5_C
+    400094: jt_Tail6_C
+    400096: jt_Thigh_L
+    400098: jt_Thigh_R
+    400100: jt_ThighMuscle_L
+    400102: jt_ThighMuscle_R
+    400104: jt_ToeInner_L
+    400106: jt_ToeInner_R
+    400108: jt_ToeMiddle_L
+    400110: jt_ToeMiddle_R
+    400112: jt_ToeOutter_L
+    400114: jt_ToeOutter_R
+    400116: jt_Tongue1_C
+    400118: jt_Tongue2_C
+    400120: jt_Wrist_L
+    400122: jt_Wrist_R
+    400124: Null
+    400126: Skm
+    2100000: All0Mat00
+    4300000: Skm
+    7400000: C4D Animation Take
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Skm
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 170
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
