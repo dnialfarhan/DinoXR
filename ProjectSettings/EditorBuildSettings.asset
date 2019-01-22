@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scene/DinoXR_Level2.unity
-    guid: 3f221258da345f047a34a7576ba3f612
+    path: Assets/Scene/Level3/Level3.unity
+    guid: 59e88fb2bb80a504b9b482e1cbd12e70
   m_configObjects: {}
