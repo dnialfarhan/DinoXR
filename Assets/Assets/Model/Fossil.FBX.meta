@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4a91b14f3d24fc0419bab1266b89508a
+guid: 6a65ea54567dcdc4eaf191c67decd68c
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -11,9 +11,9 @@ ModelImporter:
     100010: left hand
     100012: left leg
     100014: Left_Femur
-    100016: museumhallRD:www_joel3d_com_Tricer
-    100018: right hand
-    100020: right leg
+    100016: right hand
+    100018: right leg
+    100020: Tail_Detach
     100022: waist
     400000: back bone
     400002: below rib
@@ -23,9 +23,9 @@ ModelImporter:
     400010: left hand
     400012: left leg
     400014: Left_Femur
-    400016: museumhallRD:www_joel3d_com_Tricer
-    400018: right hand
-    400020: right leg
+    400016: right hand
+    400018: right leg
+    400020: Tail_Detach
     400022: waist
     2100000: museumhallRD_bone1
     2300000: back bone
@@ -37,7 +37,8 @@ ModelImporter:
     2300012: Left_Femur
     2300014: right hand
     2300016: right leg
-    2300018: waist
+    2300018: Tail_Detach
+    2300020: waist
     3300000: back bone
     3300002: below rib
     3300004: head
@@ -47,7 +48,8 @@ ModelImporter:
     3300012: Left_Femur
     3300014: right hand
     3300016: right leg
-    3300018: waist
+    3300018: Tail_Detach
+    3300020: waist
     4300000: jaw
     4300002: head
     4300004: left leg
@@ -58,12 +60,8 @@ ModelImporter:
     4300014: back bone
     4300016: waist
     4300018: Left_Femur
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: museumhallRD_bone1
-    second: {fileID: 2100000, guid: 0df9d244b81bbd146943e58566c41bf8, type: 2}
+    4300020: Tail_Detach
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0

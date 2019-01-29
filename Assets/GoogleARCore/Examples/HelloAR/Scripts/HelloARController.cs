@@ -353,8 +353,8 @@ namespace GoogleARCore.Examples.HelloAR
                 }
 				*/
 
-				DetectedPlaneGenerator.SetActive(false);
-				PointCloud.SetActive(false);
+				//DetectedPlaneGenerator.SetActive(false);
+				//PointCloud.SetActive(false);
 
 				if (currentNumberOfObjects < numberOfObjectsAllowed)
 				{
