@@ -493,6 +493,48 @@ MonoBehaviour:
   AndyPointPrefab: {fileID: 1512436995812392, guid: daf2affdbf66cac42993f074d6f417f2,
     type: 2}
   SearchingForPlaneUI: {fileID: 1133631540}
+--- !u!1001 &686701024
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4850465116622980, guid: daf2affdbf66cac42993f074d6f417f2, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4850465116622980, guid: daf2affdbf66cac42993f074d6f417f2, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4850465116622980, guid: daf2affdbf66cac42993f074d6f417f2, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4850465116622980, guid: daf2affdbf66cac42993f074d6f417f2, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4850465116622980, guid: daf2affdbf66cac42993f074d6f417f2, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4850465116622980, guid: daf2affdbf66cac42993f074d6f417f2, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4850465116622980, guid: daf2affdbf66cac42993f074d6f417f2, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4850465116622980, guid: daf2affdbf66cac42993f074d6f417f2, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: daf2affdbf66cac42993f074d6f417f2, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &687496799
 GameObject:
   m_ObjectHideFlags: 0
