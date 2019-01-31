@@ -11,6 +11,9 @@ public class FossilRaycast : MonoBehaviour {
 
 	public GameObject realDino;
 	public GameObject fossilDino;
+	public Animation realDinoAnim;
+
+	public Animation jawSoil, femurSoil, tailSoil;
 
 	void Update()
 	{
@@ -50,6 +53,23 @@ public class FossilRaycast : MonoBehaviour {
 				{
 					fossilDino.SetActive(false);
 					realDino.SetActive(true);
+					realDinoAnim.Play();
+
+				}
+
+				if(hitInfo.collider.tag == "ExcavationBoxJaw")
+				{
+					jawSoil.Play();
+				}
+
+				if (hitInfo.collider.tag == "ExcavationBoxFemur")
+				{
+					femurSoil.Play();
+				}
+
+				if (hitInfo.collider.tag == "ExcavationBoxTail")
+				{
+					tailSoil.Play();
 				}
 
 			}
