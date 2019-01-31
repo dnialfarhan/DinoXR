@@ -7,10 +7,10 @@ public class RaycastManager1 : MonoBehaviour
 	public Button jawFossil, femurFossil, tailFossil;
 	public GameObject jawUI, femurUI, tailUI;
 
+
 	void Update()
 	{
-
-		
+	
 		if (Input.touchCount > 0)
 		{
 			var ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
@@ -38,6 +38,8 @@ public class RaycastManager1 : MonoBehaviour
 					tailUI.SetActive(true);
 					Destroy(hitInfo.collider.gameObject);
 				}
+
+
 			}
 
 		}

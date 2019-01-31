@@ -1,41 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlacerManager_Level3 : MonoBehaviour {
 
-	public GameObject jawMesh, femurMesh, tailMesh;
 
-	private void OnTriggerEnter(Collider other)
+	public GameObject placeFossil;
+
+	private void Start()
 	{
-		if(other.gameObject.tag ==("Jaw"))
-		{
-			JawPlace();
-		}
+		placeFossil.SetActive(false);
+	}
 
-		if(other.gameObject.tag == ("Femur"))
+	void OnTriggerEnter(Collider other)
+	{
+		if (other.gameObject.tag == "MainCamera")
 		{
-			FemurPlace();
-		}
-
-		if (other.gameObject.tag == ("Tail"))
-		{
-			TailPlace();
+			placeFossil.SetActive(true);
 		}
 	}
 
-	public void JawPlace()
+	private void OnTriggerExit(Collider other)
 	{
-		
+		placeFossil.SetActive(false);
 	}
 
-	public void FemurPlace()
-	{
-
-	}
-
-	public void TailPlace()
-	{
-
-	}
 }

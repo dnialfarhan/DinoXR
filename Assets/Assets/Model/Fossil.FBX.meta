@@ -61,7 +61,12 @@ ModelImporter:
     4300016: waist
     4300018: Left_Femur
     4300020: Tail_Detach
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: museumhallRD_bone1
+    second: {fileID: 2100000, guid: 0699b935647f3db4981f36f1e9409a33, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -8,6 +8,10 @@ TagManager:
   - Femur
   - Jaw
   - Tail
+  - JawButton
+  - FemurButton
+  - TailButton
+  - ConvertDino
   layers:
   - Default
   - TransparentFX

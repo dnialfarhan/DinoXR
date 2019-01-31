@@ -265,7 +265,7 @@ e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 2f9af06a78208a67db480e9bfed4a076 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 9318334b30e9f195f573b2ce00154b95 Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 44cc94952c38cdaa18dfc8245e6ba378 Assembly-CSharp.dll:.RaycastManager1
-b533791bdc3c93fac23b9d2141a1f24c Assembly-CSharp.dll:.PlacerManager_Level3
+3ac47129efe5e48ee571d240c8ec2279 Assembly-CSharp.dll:.PlacerManager_Level3
 93307bd34e39d73fd24e00ec39c25a91 Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 182e416670915c50a548c38c642db0d8 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 f35860350df72508419d9f9fcd288594 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
@@ -335,3 +335,5 @@ c1087bf328bbb39eba5a09f26c3b6368 Vuforia.UnityExtensions.dll:Vuforia.MultiTarget
 c8a41ce4eea7677f6dd2aa0e422a2f04 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 c31ff9acb65f7a15b5c6fd77c3314d83 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 486cd95c82d8305219c352c06b776e1f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
+78bc2db00a193010c0027dfd97b36296 Assembly-CSharp.dll:.TestScript
+322eda4a30b6f108c127951ff6ceef0d Assembly-CSharp.dll:.FossilRaycast
