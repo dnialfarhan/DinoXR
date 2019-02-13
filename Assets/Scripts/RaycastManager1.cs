@@ -22,21 +22,24 @@ public class RaycastManager1 : MonoBehaviour
 				{
 					femurFossil.interactable = true;
 					femurUI.SetActive(true);
-					Destroy(hitInfo.collider.gameObject);
+					//Destroy(hitInfo.collider.gameObject);
+					hitInfo.collider.gameObject.SetActive(false);
 				}
 
 				if (hitInfo.collider.tag == "Jaw")
 				{
 					jawFossil.interactable = true;
 					jawUI.SetActive(true);
-					Destroy(hitInfo.collider.gameObject);
+					//Destroy(hitInfo.collider.gameObject);
+					hitInfo.collider.gameObject.SetActive(false);
 				}
 
 				if (hitInfo.collider.tag == "Tail")
 				{
 					tailFossil.interactable = true;
 					tailUI.SetActive(true);
-					Destroy(hitInfo.collider.gameObject);
+					//Destroy(hitInfo.collider.gameObject);
+					hitInfo.collider.gameObject.SetActive(false);
 				}
 
 
