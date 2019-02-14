@@ -8,7 +8,7 @@ public class RaycastManager1 : MonoBehaviour
 	public GameObject jawUI, femurUI, tailUI;
 
 
-	void Update()
+	void FixedUpdate()
 	{
 	
 		if (Input.touchCount > 0)

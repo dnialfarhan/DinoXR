@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class FossilRaycast : MonoBehaviour {
 
@@ -24,7 +22,7 @@ public class FossilRaycast : MonoBehaviour {
 	public GameObject jawBttn, femurBttn, tailBttn;
 
 
-	void Update()
+	void FixedUpdate()
 	{
 
 		if (Input.touchCount > 0)

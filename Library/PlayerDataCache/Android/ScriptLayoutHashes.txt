@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/dania/Desktop/VRDP2/DinoXR/DinoXR_v10.apk
+C:/Users/dania/Desktop/VRDP2/DinoXR/DinoXR_v11.apk
 SceneListBegin?
 Assets/Scene/Level3/Level3.unity
 SceneListEnd?
