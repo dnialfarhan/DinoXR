@@ -201,10 +201,12 @@
     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
     <Compile Include="Assets\Scripts\AnimationManager.cs" />
     <Compile Include="Assets\Scripts\FossilRaycast.cs" />
+    <Compile Include="Assets\Scripts\HomeUI.cs" />
     <Compile Include="Assets\Scripts\MainUI.cs" />
     <Compile Include="Assets\Scripts\ParallaxFx.cs" />
     <Compile Include="Assets\Scripts\PlacerManager_Level3.cs" />
     <Compile Include="Assets\Scripts\RaycastManager1.cs" />
+    <Compile Include="Assets\Scripts\SettingUI.cs" />
     <Compile Include="Assets\Scripts\TrexAnimation.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
     <None Include="Assets\GoogleARCore\Examples\Common\Materials\Shaders\PlaneGrid.shader" />
