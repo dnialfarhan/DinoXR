@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Playables;
 
 public class FossilRaycast : MonoBehaviour {
 
@@ -20,6 +21,9 @@ public class FossilRaycast : MonoBehaviour {
 
 	//Placer Button
 	public GameObject jawBttn, femurBttn, tailBttn;
+
+	//Test Playable
+	public PlayableDirector Test;
 
 
 	void FixedUpdate()
@@ -80,6 +84,11 @@ public class FossilRaycast : MonoBehaviour {
 				if (hitInfo.collider.tag == "ExcavationBoxTail")
 				{
 					tailSoil.Play();
+				}
+
+				if(hitInfo.collider.tag == "Test")
+				{
+					Test.Play();
 				}
 
 			}
