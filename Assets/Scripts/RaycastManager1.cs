@@ -1,12 +1,10 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using GoogleARCore.Examples.HelloAR;
 
 public class RaycastManager1 : MonoBehaviour
 {
-	public Button jawFossil, femurFossil, tailFossil;
-	public GameObject jawUI, femurUI, tailUI;
-
+	public Button jawFossil, femurFossil, tailFossil, ammoniteFossil, elmFossil;
+	public GameObject jawUI, femurUI, tailUI, ammoniteUI, elmUI;
 
 	void FixedUpdate()
 	{
@@ -22,7 +20,6 @@ public class RaycastManager1 : MonoBehaviour
 				{
 					femurFossil.interactable = true;
 					femurUI.SetActive(true);
-					//Destroy(hitInfo.collider.gameObject);
 					hitInfo.collider.gameObject.SetActive(false);
 				}
 
@@ -30,7 +27,6 @@ public class RaycastManager1 : MonoBehaviour
 				{
 					jawFossil.interactable = true;
 					jawUI.SetActive(true);
-					//Destroy(hitInfo.collider.gameObject);
 					hitInfo.collider.gameObject.SetActive(false);
 				}
 
@@ -38,13 +34,25 @@ public class RaycastManager1 : MonoBehaviour
 				{
 					tailFossil.interactable = true;
 					tailUI.SetActive(true);
-					//Destroy(hitInfo.collider.gameObject);
 					hitInfo.collider.gameObject.SetActive(false);
 				}
 
+				if (hitInfo.collider.tag == "Ammonite")
+				{
+					ammoniteFossil.interactable = true;
+					ammoniteUI.SetActive(true);
+					hitInfo.collider.gameObject.SetActive(false);
+				}
 
+				if(hitInfo.collider.tag == "Elm")
+				{
+					elmFossil.interactable = true;
+					elmUI.SetActive(true);
+					hitInfo.collider.gameObject.SetActive(false);
+				}
 			}
 
 		}
+
 	}
 }

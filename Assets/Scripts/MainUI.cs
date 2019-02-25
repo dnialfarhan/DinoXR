@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class MainUI : MonoBehaviour {
 
-	public GameObject jawInfo, femurInfo, tailInfo;
+	public GameObject jawInfo, femurInfo, tailInfo, ammoniteInfo, elmInfo;
 
 	public GameObject level3Info;
 
@@ -30,6 +30,16 @@ public class MainUI : MonoBehaviour {
 	public void TailInfoClose()
 	{
 		tailInfo.SetActive(false);
+	}
+
+	public void AmmoniteInfoClose()
+	{
+		ammoniteInfo.SetActive(false);
+	}
+
+	public void ElmInfoClose()
+	{
+		elmInfo.SetActive(false);
 	}
 
 	public void InfoOpen()

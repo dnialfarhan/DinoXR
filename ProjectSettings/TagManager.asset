@@ -12,11 +12,14 @@ TagManager:
   - FemurButton
   - TailButton
   - ConvertDino
-  - ExcavationBox
-  - ExcavationBoxJaw
-  - ExcavationBoxFemur
-  - ExcavationBoxTail
-  - Test
+  - Soil
+  - ExcavationJaw
+  - ExcavationFemur
+  - ExcavationTail
+  - ExcavationAmmonite
+  - ExcavationElm
+  - Ammonite
+  - Elm
   layers:
   - Default
   - TransparentFX
@@ -27,7 +30,7 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
+  - Raycast
   - 
   - 
   - 

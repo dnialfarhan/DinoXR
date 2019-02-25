@@ -1687,7 +1687,7 @@ GameObject:
   - component: {fileID: 54791598510386976}
   m_Layer: 0
   m_Name: Plane002
-  m_TagString: Test
+  m_TagString: Soil
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5357,7 +5357,7 @@ GameObject:
   - component: {fileID: 4877897549244160}
   - component: {fileID: 320685983294619618}
   - component: {fileID: 95130099502276594}
-  - component: {fileID: 114638615445259110}
+  - component: {fileID: 114811143925829420}
   m_Layer: 0
   m_Name: ExcavationBox(Updated)
   m_TagString: Untagged
@@ -48045,8 +48045,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.3319359, y: 1.4131871, z: 0.13809316}
-  m_Center: {x: 0.00000008940697, y: -0.00000014901164, z: 0.06904658}
+  m_Size: {x: 1.3319359, y: 1.4131871, z: 0.04252762}
+  m_Center: {x: 0.00000011920929, y: -0.00000017881393, z: 0.11682936}
 --- !u!95 &95130099502276594
 Animator:
   serializedVersion: 3
@@ -48065,7 +48065,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114638615445259110
+--- !u!114 &114811143925829420
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -48073,7 +48073,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1460686655342340}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66397efb92f821041a06720bf907c84f, type: 3}
+  m_Script: {fileID: 11500000, guid: 00812801c1c9bbd49b9f0d66933b1291, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 320685983294619618}
@@ -48091,11 +48091,11 @@ PlayableDirector:
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: 114397573378198316, guid: 1d1023e90df9acd429feaba633b79bff, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 95130099502276594}
   - key: {fileID: 114038037832230906, guid: a75ce7e29137a644c84e616669045470, type: 2}
     value: {fileID: 0}
-  - key: {fileID: 114121525507850854, guid: 1d1023e90df9acd429feaba633b79bff, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 95130099502276594}
   - key: {fileID: 114621370929409604, guid: a75ce7e29137a644c84e616669045470, type: 2}
     value: {fileID: 95130099502276594}

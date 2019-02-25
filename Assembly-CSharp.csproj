@@ -209,7 +209,6 @@
     <Compile Include="Assets\Scripts\SettingUI.cs" />
     <Compile Include="Assets\Scripts\TrexAnimation.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
-    <Compile Include="Assets\Test.cs" />
     <None Include="Assets\GoogleARCore\Examples\Common\Materials\Shaders\PlaneGrid.shader" />
     <None Include="Assets\Shaders\ColoredLines.shader" />
     <None Include="Assets\Shaders\CameraDiffuse.shader" />

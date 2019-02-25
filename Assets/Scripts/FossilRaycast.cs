@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.Playables;
 
 public class FossilRaycast : MonoBehaviour {
 
@@ -16,14 +15,23 @@ public class FossilRaycast : MonoBehaviour {
 	public GameObject fossilDino;
 	public Animation realDinoAnim;
 
-	//Excavation Animation
-	public Animation jawSoil, femurSoil, tailSoil;
-
 	//Placer Button
 	public GameObject jawBttn, femurBttn, tailBttn;
 
-	//Test Playable
-	public PlayableDirector Test;
+	//Excavation Animation
+	public Animation excavateJaw, excavateFemur, excavateTail, excavateAmmonite, excavateElm;
+
+	//Animation Speed
+	public float animSpeed = 1.5f;
+
+	void Start()
+	{
+		excavateJaw["shovelAnim"].speed = animSpeed;
+		excavateFemur["shovelAnim"].speed = animSpeed;
+		excavateTail["shovelAnim"].speed = animSpeed;
+		excavateAmmonite["shovelAnim"].speed = animSpeed;
+		excavateElm["shovelAnim"].speed = animSpeed;
+	}
 
 
 	void FixedUpdate()
@@ -35,6 +43,31 @@ public class FossilRaycast : MonoBehaviour {
 			RaycastHit hitInfo;
 			if (Physics.Raycast(ray, out hitInfo))
 			{
+
+				if (hitInfo.collider.tag == "ExcavationJaw")
+				{
+					excavateJaw.Play();
+				}
+
+				if (hitInfo.collider.tag == "ExcavationFemur")
+				{
+					excavateFemur.Play();
+				}
+
+				if (hitInfo.collider.tag == "ExcavationTail")
+				{
+					excavateTail.Play();
+				}
+
+				if (hitInfo.collider.tag == "ExcavationAmmonite")
+				{
+					excavateAmmonite.Play();
+				}
+
+				if (hitInfo.collider.tag == "ExcavationElm")
+				{
+					excavateElm.Play();
+				}
 
 				if (hitInfo.collider.tag == "JawButton")
 				{
@@ -68,27 +101,6 @@ public class FossilRaycast : MonoBehaviour {
 					fossilDino.SetActive(false);
 					realDino.SetActive(true);
 					realDinoAnim.Play();
-
-				}
-
-				if(hitInfo.collider.tag == "ExcavationBoxJaw")
-				{
-					jawSoil.Play();
-				}
-
-				if (hitInfo.collider.tag == "ExcavationBoxFemur")
-				{
-					femurSoil.Play();
-				}
-
-				if (hitInfo.collider.tag == "ExcavationBoxTail")
-				{
-					tailSoil.Play();
-				}
-
-				if(hitInfo.collider.tag == "Test")
-				{
-					Test.Play();
 				}
 
 			}
