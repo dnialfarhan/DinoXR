@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/Level2/Level2.unity
+- path: Assets/Scene/Level1/Level1_SelfieGallery.unity
   isLoaded: 1
   isActive: 1

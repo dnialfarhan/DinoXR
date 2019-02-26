@@ -5,7 +5,7 @@ public class HomeUI : MonoBehaviour {
 
 	public void Level1()
 	{
-		SceneManager.LoadScene("Level1");
+		SceneManager.LoadScene("Level1_SelfieSelection");
 	}
 
 	public void Level2()
