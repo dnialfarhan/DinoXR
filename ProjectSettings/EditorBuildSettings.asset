@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scene/Level1/Level1_SelfieGallery.unity
     guid: de2cc195c4b257743b52969634962dca
   - enabled: 1
+    path: Assets/Scene/Level2/Level2.unity
+    guid: 51e4016ba83b979418d9cf973faf0264
+  - enabled: 1
     path: Assets/Scene/Level3/Level3.unity
     guid: 59e88fb2bb80a504b9b482e1cbd12e70
   - enabled: 1

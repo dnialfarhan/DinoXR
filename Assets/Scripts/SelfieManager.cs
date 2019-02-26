@@ -17,4 +17,9 @@ public class SelfieManager : MonoBehaviour {
 	{
 		SceneManager.LoadScene("Home");
 	}
+
+	public void BackToSelfie()
+	{
+		SceneManager.LoadScene("Level1_SelfieScene");
+	}
 }
