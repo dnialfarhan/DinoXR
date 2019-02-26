@@ -133,7 +133,7 @@ ModelImporter:
     400126: //RootNode
     2100000: All0Mat00
     4300000: Skm
-    7400000: C4D Animation Take
+    7400000: DinoStay
     9500000: //RootNode
     11100000: //RootNode
     13700000: Skm
@@ -166,7 +166,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: C4D Animation Take
+      name: DinoStay
       takeName: C4D Animation Take
       firstFrame: 0
       lastFrame: 78

@@ -129,7 +129,7 @@ ModelImporter:
     400122: //RootNode
     2100000: 'Material #30'
     4300000: Skm
-    7400000: Take 001
+    7400000: DinoWalk
     9500000: //RootNode
     11100000: //RootNode
     13700000: Skm
@@ -162,7 +162,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
+      name: DinoWalk
       takeName: Take 001
       firstFrame: 0
       lastFrame: 100
