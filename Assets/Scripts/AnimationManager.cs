@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AnimationManager : MonoBehaviour {
 
-	public ParallaxFx bgParallax;
+	/*public ParallaxFx bgParallax;
 	public ParallaxFx floorParallax;
 	public ParallaxFx groundParallax;
 
@@ -59,5 +59,12 @@ public class AnimationManager : MonoBehaviour {
 
 		uiManager.animChild.SetActive(false);
 
+	}*/
+
+	public Animation test;
+
+	public void Move()
+	{
+		test.Play();
 	}
 }

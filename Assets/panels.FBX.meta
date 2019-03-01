@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: 8b016c5e5fc282f4593f91425bce4472
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cylinder001
+    100004: Cylinder002
+    100006: Fireplce
+    100008: Panel1
+    100010: panel2
+    100012: panel3
+    100014: panel4
+    100016: PanelInfo
+    100018: Rock_004
+    100020: Rock_005
+    100022: Rock_006
+    100024: Rock_007
+    100026: Rock_008
+    100028: Rock_009
+    100030: Rock_010
+    100032: Rock_011
+    100034: Rock_012
+    100036: Rock_013
+    100038: Rock_014
+    100040: Rock_015
+    100042: Rock_016
+    100044: Rock_017
+    100046: Rock_018
+    100048: Rock_019
+    100050: Rock_020
+    100052: Rock_021
+    100054: Rock_022
+    100056: Rock_023
+    100058: Rock_024
+    100060: Rock_025
+    100062: Rock_026
+    400000: //RootNode
+    400002: Cylinder001
+    400004: Cylinder002
+    400006: Fireplce
+    400008: Panel1
+    400010: panel2
+    400012: panel3
+    400014: panel4
+    400016: PanelInfo
+    400018: Rock_004
+    400020: Rock_005
+    400022: Rock_006
+    400024: Rock_007
+    400026: Rock_008
+    400028: Rock_009
+    400030: Rock_010
+    400032: Rock_011
+    400034: Rock_012
+    400036: Rock_013
+    400038: Rock_014
+    400040: Rock_015
+    400042: Rock_016
+    400044: Rock_017
+    400046: Rock_018
+    400048: Rock_019
+    400050: Rock_020
+    400052: Rock_021
+    400054: Rock_022
+    400056: Rock_023
+    400058: Rock_024
+    400060: Rock_025
+    400062: Rock_026
+    2100000: No Name
+    2100002: 'Material #30'
+    2100004: 'Material #29'
+    2300000: //RootNode
+    2300002: Cylinder001
+    2300004: Cylinder002
+    2300006: Panel1
+    2300008: panel2
+    2300010: panel3
+    2300012: panel4
+    2300014: Rock_004
+    2300016: Rock_005
+    2300018: Rock_006
+    2300020: Rock_007
+    2300022: Rock_008
+    2300024: Rock_009
+    2300026: Rock_010
+    2300028: Rock_011
+    2300030: Rock_012
+    2300032: Rock_013
+    2300034: Rock_014
+    2300036: Rock_015
+    2300038: Rock_016
+    2300040: Rock_017
+    2300042: Rock_018
+    2300044: Rock_019
+    2300046: Rock_020
+    2300048: Rock_021
+    2300050: Rock_022
+    2300052: Rock_023
+    2300054: Rock_024
+    2300056: Rock_025
+    2300058: Rock_026
+    3300000: //RootNode
+    3300002: Cylinder001
+    3300004: Cylinder002
+    3300006: Panel1
+    3300008: panel2
+    3300010: panel3
+    3300012: panel4
+    3300014: Rock_004
+    3300016: Rock_005
+    3300018: Rock_006
+    3300020: Rock_007
+    3300022: Rock_008
+    3300024: Rock_009
+    3300026: Rock_010
+    3300028: Rock_011
+    3300030: Rock_012
+    3300032: Rock_013
+    3300034: Rock_014
+    3300036: Rock_015
+    3300038: Rock_016
+    3300040: Rock_017
+    3300042: Rock_018
+    3300044: Rock_019
+    3300046: Rock_020
+    3300048: Rock_021
+    3300050: Rock_022
+    3300052: Rock_023
+    3300054: Rock_024
+    3300056: Rock_025
+    3300058: Rock_026
+    4300000: Cylinder002
+    4300002: Cylinder001
+    4300004: Rock_004
+    4300006: Rock_005
+    4300008: Rock_025
+    4300010: Rock_024
+    4300012: Rock_008
+    4300014: Rock_009
+    4300016: Rock_010
+    4300018: Rock_011
+    4300020: Rock_012
+    4300022: Rock_013
+    4300024: Rock_014
+    4300026: Rock_015
+    4300028: Rock_016
+    4300030: Rock_017
+    4300032: Rock_018
+    4300034: Rock_019
+    4300036: Rock_020
+    4300038: Rock_021
+    4300040: Rock_022
+    4300042: Rock_023
+    4300044: Rock_026
+    4300046: Rock_006
+    4300048: Rock_007
+    4300050: Panel1
+    4300052: panel2
+    4300054: panel3
+    4300056: panel4
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
