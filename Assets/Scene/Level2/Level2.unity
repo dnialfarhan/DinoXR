@@ -502,7 +502,7 @@ GameObject:
   - component: {fileID: 187159732}
   - component: {fileID: 187159731}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Hunt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -567,7 +567,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 687496800}
-        m_MethodName: Move
+        m_MethodName: SelectIdle
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -720,7 +720,7 @@ GameObject:
   - component: {fileID: 381233251}
   - component: {fileID: 381233250}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Run
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -783,7 +783,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 381233251}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 687496800}
+        m_MethodName: SelectRun
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &381233251
@@ -901,7 +912,7 @@ GameObject:
   - component: {fileID: 503176653}
   - component: {fileID: 503176652}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Walk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -964,7 +975,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 503176653}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 687496800}
+        m_MethodName: SelectWalk
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &503176653
@@ -1291,8 +1313,6 @@ MonoBehaviour:
   ScenePanel: {fileID: 1605298551}
   DinoPanel: {fileID: 1236791892}
   AnimationPanel: {fileID: 233997399}
-  animManager: {fileID: 0}
-  instantiateObject: {fileID: 0}
 --- !u!4 &687496801
 Transform:
   m_ObjectHideFlags: 0
@@ -1381,7 +1401,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 690309601}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 687496800}
+        m_MethodName: SelectOpenArea
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &690309601
@@ -1493,7 +1524,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 715120664}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 687496800}
+        m_MethodName: SelectDesert
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &715120664
@@ -1674,7 +1716,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 824161658}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 687496800}
+        m_MethodName: SelectJungle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &824161658
@@ -1828,6 +1881,48 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 947498156}
   m_CullTransparentMesh: 0
+--- !u!1001 &980129256
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4050937027539694, guid: 30dba47408f35524d871bc63c42b9997, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4050937027539694, guid: 30dba47408f35524d871bc63c42b9997, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.103
+      objectReference: {fileID: 0}
+    - target: {fileID: 4050937027539694, guid: 30dba47408f35524d871bc63c42b9997, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.036
+      objectReference: {fileID: 0}
+    - target: {fileID: 4050937027539694, guid: 30dba47408f35524d871bc63c42b9997, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4050937027539694, guid: 30dba47408f35524d871bc63c42b9997, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4050937027539694, guid: 30dba47408f35524d871bc63c42b9997, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4050937027539694, guid: 30dba47408f35524d871bc63c42b9997, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4050937027539694, guid: 30dba47408f35524d871bc63c42b9997, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 30dba47408f35524d871bc63c42b9997, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1031563103
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,786 @@
+fileFormatVersion: 2
+guid: f0c1bc0888dc2744fa25fad57b567c3f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Aloe..002
+    100002: Box013
+    100004: Box014
+    100006: Box015
+    100008: Box017
+    100010: Box018
+    100012: Box020
+    100014: Box021
+    100016: Box022
+    100018: Box023
+    100020: Box024
+    100022: Box025
+    100024: Box026
+    100026: Box027
+    100028: Box030
+    100030: Box032
+    100032: Box033
+    100034: Box034
+    100036: Box035
+    100038: Box038
+    100040: Box040
+    100042: Box041
+    100044: Box042
+    100046: Box043
+    100048: Box044
+    100050: Box045
+    100052: Box046
+    100054: Box047
+    100056: Box049
+    100058: Box050
+    100060: Box051
+    100062: Box052
+    100064: Box053
+    100066: Box054
+    100068: Box056
+    100070: Box059
+    100072: Box060
+    100074: Box061
+    100076: Box062
+    100078: Box063
+    100080: Box064
+    100082: Box065
+    100084: Box066
+    100086: Box067
+    100088: Box068
+    100090: Box069
+    100092: Box070
+    100094: Box071
+    100096: Box072
+    100098: Cactus003
+    100100: Cactus004
+    100102: Cactus005
+    100104: Cactus006
+    100106: Cactus2
+    100108: Cap 1.003
+    100110: Cylinder001
+    100112: //RootNode
+    100114: Line001
+    100116: Object007
+    100118: Object022
+    100120: Object023
+    100122: Plane002
+    100124: Plane003
+    100126: Plane004
+    100128: Plane005
+    100130: weed007
+    100132: weed008
+    100134: weed009
+    100136: weed010
+    100138: weed011
+    100140: weed012
+    100142: Branch
+    100144: Cactus
+    100146: Cactus 1
+    100148: Cactus 2
+    100150: Cactus 3
+    100152: Cactus 4
+    100154: Grass
+    100156: Grass 1
+    100158: Grass 2
+    100160: Grass 3
+    100162: Grass 4
+    100164: Grass 5
+    100166: Grass 6
+    100168: Platform
+    100170: Platform 1
+    100172: Platform 10
+    100174: Platform 11
+    100176: Platform 12
+    100178: Platform 13
+    100180: Platform 14
+    100182: Platform 15
+    100184: Platform 16
+    100186: Platform 17
+    100188: Platform 18
+    100190: Platform 19
+    100192: Platform 2
+    100194: Platform 20
+    100196: Platform 21
+    100198: Platform 22
+    100200: Platform 23
+    100202: Platform 24
+    100204: Platform 25
+    100206: Platform 26
+    100208: Platform 27
+    100210: Platform 28
+    100212: Platform 29
+    100214: Platform 3
+    100216: Platform 30
+    100218: Platform 31
+    100220: Platform 32
+    100222: Platform 33
+    100224: Platform 34
+    100226: Platform 35
+    100228: Platform 36
+    100230: Platform 37
+    100232: Platform 38
+    100234: Platform 39
+    100236: Platform 4
+    100238: Platform 40
+    100240: Platform 41
+    100242: Platform 42
+    100244: Platform 43
+    100246: Platform 5
+    100248: Platform 6
+    100250: Platform 7
+    100252: Platform 8
+    100254: Platform 9
+    100256: Rock
+    100258: Rock 1
+    100260: Rock 2
+    100262: Rock 3
+    100264: Rock 4
+    100266: Rock 5
+    400000: Aloe..002
+    400002: Box013
+    400004: Box014
+    400006: Box015
+    400008: Box017
+    400010: Box018
+    400012: Box020
+    400014: Box021
+    400016: Box022
+    400018: Box023
+    400020: Box024
+    400022: Box025
+    400024: Box026
+    400026: Box027
+    400028: Box030
+    400030: Box032
+    400032: Box033
+    400034: Box034
+    400036: Box035
+    400038: Box038
+    400040: Box040
+    400042: Box041
+    400044: Box042
+    400046: Box043
+    400048: Box044
+    400050: Box045
+    400052: Box046
+    400054: Box047
+    400056: Box049
+    400058: Box050
+    400060: Box051
+    400062: Box052
+    400064: Box053
+    400066: Box054
+    400068: Box056
+    400070: Box059
+    400072: Box060
+    400074: Box061
+    400076: Box062
+    400078: Box063
+    400080: Box064
+    400082: Box065
+    400084: Box066
+    400086: Box067
+    400088: Box068
+    400090: Box069
+    400092: Box070
+    400094: Box071
+    400096: Box072
+    400098: Cactus003
+    400100: Cactus004
+    400102: Cactus005
+    400104: Cactus006
+    400106: Cactus2
+    400108: Cap 1.003
+    400110: Cylinder001
+    400112: //RootNode
+    400114: Line001
+    400116: Object007
+    400118: Object022
+    400120: Object023
+    400122: Plane002
+    400124: Plane003
+    400126: Plane004
+    400128: Plane005
+    400130: weed007
+    400132: weed008
+    400134: weed009
+    400136: weed010
+    400138: weed011
+    400140: weed012
+    400142: Branch
+    400144: Cactus
+    400146: Cactus 1
+    400148: Cactus 2
+    400150: Cactus 3
+    400152: Cactus 4
+    400154: Grass
+    400156: Grass 1
+    400158: Grass 2
+    400160: Grass 3
+    400162: Grass 4
+    400164: Grass 5
+    400166: Grass 6
+    400168: Platform
+    400170: Platform 1
+    400172: Platform 10
+    400174: Platform 11
+    400176: Platform 12
+    400178: Platform 13
+    400180: Platform 14
+    400182: Platform 15
+    400184: Platform 16
+    400186: Platform 17
+    400188: Platform 18
+    400190: Platform 19
+    400192: Platform 2
+    400194: Platform 20
+    400196: Platform 21
+    400198: Platform 22
+    400200: Platform 23
+    400202: Platform 24
+    400204: Platform 25
+    400206: Platform 26
+    400208: Platform 27
+    400210: Platform 28
+    400212: Platform 29
+    400214: Platform 3
+    400216: Platform 30
+    400218: Platform 31
+    400220: Platform 32
+    400222: Platform 33
+    400224: Platform 34
+    400226: Platform 35
+    400228: Platform 36
+    400230: Platform 37
+    400232: Platform 38
+    400234: Platform 39
+    400236: Platform 4
+    400238: Platform 40
+    400240: Platform 41
+    400242: Platform 42
+    400244: Platform 43
+    400246: Platform 5
+    400248: Platform 6
+    400250: Platform 7
+    400252: Platform 8
+    400254: Platform 9
+    400256: Rock
+    400258: Rock 1
+    400260: Rock 2
+    400262: Rock 3
+    400264: Rock 4
+    400266: Rock 5
+    2100000: _free_lowpoly_trees_packMaterial_003
+    2100002: No Name
+    2100004: _weeds13___Default
+    2100006: Cactus
+    2100008: Thorn
+    2100010: Aloe
+    2100012: 01 - Default
+    2300000: Aloe..002
+    2300002: Box013
+    2300004: Box014
+    2300006: Box015
+    2300008: Box017
+    2300010: Box018
+    2300012: Box020
+    2300014: Box021
+    2300016: Box022
+    2300018: Box023
+    2300020: Box024
+    2300022: Box025
+    2300024: Box026
+    2300026: Box027
+    2300028: Box030
+    2300030: Box032
+    2300032: Box033
+    2300034: Box034
+    2300036: Box035
+    2300038: Box038
+    2300040: Box040
+    2300042: Box041
+    2300044: Box042
+    2300046: Box043
+    2300048: Box044
+    2300050: Box045
+    2300052: Box046
+    2300054: Box047
+    2300056: Box049
+    2300058: Box050
+    2300060: Box051
+    2300062: Box052
+    2300064: Box053
+    2300066: Box054
+    2300068: Box056
+    2300070: Box059
+    2300072: Box060
+    2300074: Box061
+    2300076: Box062
+    2300078: Box063
+    2300080: Box064
+    2300082: Box065
+    2300084: Box066
+    2300086: Box067
+    2300088: Box068
+    2300090: Box069
+    2300092: Box070
+    2300094: Box071
+    2300096: Box072
+    2300098: Cactus003
+    2300100: Cactus004
+    2300102: Cactus005
+    2300104: Cactus006
+    2300106: Cactus2
+    2300108: Cylinder001
+    2300110: Object007
+    2300112: Object022
+    2300114: Object023
+    2300116: Plane002
+    2300118: Plane003
+    2300120: Plane004
+    2300122: Plane005
+    2300124: weed007
+    2300126: weed008
+    2300128: weed009
+    2300130: weed010
+    2300132: weed011
+    2300134: weed012
+    2300136: Branch
+    2300138: Cactus
+    2300140: Cactus 1
+    2300142: Cactus 2
+    2300144: Cactus 3
+    2300146: Cactus 4
+    2300148: Grass
+    2300150: Grass 1
+    2300152: Grass 2
+    2300154: Grass 3
+    2300156: Grass 4
+    2300158: Grass 5
+    2300160: Grass 6
+    2300162: Platform
+    2300164: Platform 1
+    2300166: Platform 10
+    2300168: Platform 11
+    2300170: Platform 12
+    2300172: Platform 13
+    2300174: Platform 14
+    2300176: Platform 15
+    2300178: Platform 16
+    2300180: Platform 17
+    2300182: Platform 18
+    2300184: Platform 19
+    2300186: Platform 2
+    2300188: Platform 20
+    2300190: Platform 21
+    2300192: Platform 22
+    2300194: Platform 23
+    2300196: Platform 24
+    2300198: Platform 25
+    2300200: Platform 26
+    2300202: Platform 27
+    2300204: Platform 28
+    2300206: Platform 29
+    2300208: Platform 3
+    2300210: Platform 30
+    2300212: Platform 31
+    2300214: Platform 32
+    2300216: Platform 33
+    2300218: Platform 34
+    2300220: Platform 35
+    2300222: Platform 36
+    2300224: Platform 37
+    2300226: Platform 38
+    2300228: Platform 39
+    2300230: Platform 4
+    2300232: Platform 40
+    2300234: Platform 41
+    2300236: Platform 42
+    2300238: Platform 43
+    2300240: Platform 5
+    2300242: Platform 6
+    2300244: Platform 7
+    2300246: Platform 8
+    2300248: Platform 9
+    2300250: Rock
+    2300252: Rock 1
+    2300254: Rock 2
+    2300256: Rock 3
+    2300258: Rock 4
+    2300260: Rock 5
+    3300000: Aloe..002
+    3300002: Box013
+    3300004: Box014
+    3300006: Box015
+    3300008: Box017
+    3300010: Box018
+    3300012: Box020
+    3300014: Box021
+    3300016: Box022
+    3300018: Box023
+    3300020: Box024
+    3300022: Box025
+    3300024: Box026
+    3300026: Box027
+    3300028: Box030
+    3300030: Box032
+    3300032: Box033
+    3300034: Box034
+    3300036: Box035
+    3300038: Box038
+    3300040: Box040
+    3300042: Box041
+    3300044: Box042
+    3300046: Box043
+    3300048: Box044
+    3300050: Box045
+    3300052: Box046
+    3300054: Box047
+    3300056: Box049
+    3300058: Box050
+    3300060: Box051
+    3300062: Box052
+    3300064: Box053
+    3300066: Box054
+    3300068: Box056
+    3300070: Box059
+    3300072: Box060
+    3300074: Box061
+    3300076: Box062
+    3300078: Box063
+    3300080: Box064
+    3300082: Box065
+    3300084: Box066
+    3300086: Box067
+    3300088: Box068
+    3300090: Box069
+    3300092: Box070
+    3300094: Box071
+    3300096: Box072
+    3300098: Cactus003
+    3300100: Cactus004
+    3300102: Cactus005
+    3300104: Cactus006
+    3300106: Cactus2
+    3300108: Cylinder001
+    3300110: Object007
+    3300112: Object022
+    3300114: Object023
+    3300116: Plane002
+    3300118: Plane003
+    3300120: Plane004
+    3300122: Plane005
+    3300124: weed007
+    3300126: weed008
+    3300128: weed009
+    3300130: weed010
+    3300132: weed011
+    3300134: weed012
+    3300136: Branch
+    3300138: Cactus
+    3300140: Cactus 1
+    3300142: Cactus 2
+    3300144: Cactus 3
+    3300146: Cactus 4
+    3300148: Grass
+    3300150: Grass 1
+    3300152: Grass 2
+    3300154: Grass 3
+    3300156: Grass 4
+    3300158: Grass 5
+    3300160: Grass 6
+    3300162: Platform
+    3300164: Platform 1
+    3300166: Platform 10
+    3300168: Platform 11
+    3300170: Platform 12
+    3300172: Platform 13
+    3300174: Platform 14
+    3300176: Platform 15
+    3300178: Platform 16
+    3300180: Platform 17
+    3300182: Platform 18
+    3300184: Platform 19
+    3300186: Platform 2
+    3300188: Platform 20
+    3300190: Platform 21
+    3300192: Platform 22
+    3300194: Platform 23
+    3300196: Platform 24
+    3300198: Platform 25
+    3300200: Platform 26
+    3300202: Platform 27
+    3300204: Platform 28
+    3300206: Platform 29
+    3300208: Platform 3
+    3300210: Platform 30
+    3300212: Platform 31
+    3300214: Platform 32
+    3300216: Platform 33
+    3300218: Platform 34
+    3300220: Platform 35
+    3300222: Platform 36
+    3300224: Platform 37
+    3300226: Platform 38
+    3300228: Platform 39
+    3300230: Platform 4
+    3300232: Platform 40
+    3300234: Platform 41
+    3300236: Platform 42
+    3300238: Platform 43
+    3300240: Platform 5
+    3300242: Platform 6
+    3300244: Platform 7
+    3300246: Platform 8
+    3300248: Platform 9
+    3300250: Rock
+    3300252: Rock 1
+    3300254: Rock 2
+    3300256: Rock 3
+    3300258: Rock 4
+    3300260: Rock 5
+    4300000: Cylinder001
+    4300002: Box013
+    4300004: Box014
+    4300006: Box072
+    4300008: Box015
+    4300010: Box017
+    4300012: weed007
+    4300014: Box018
+    4300016: Box021
+    4300018: Box022
+    4300020: Box023
+    4300022: Box024
+    4300024: Cactus004
+    4300026: Box025
+    4300028: Box026
+    4300030: Box027
+    4300032: Box030
+    4300034: Cactus006
+    4300036: Object007
+    4300038: Box032
+    4300040: Box033
+    4300042: Box034
+    4300044: Box035
+    4300046: Box038
+    4300048: weed010
+    4300050: Box040
+    4300052: Box041
+    4300054: Box042
+    4300056: weed012
+    4300058: Box043
+    4300060: Box070
+    4300062: Aloe..002
+    4300064: Box044
+    4300066: Box045
+    4300068: Box046
+    4300070: Box047
+    4300072: Box069
+    4300074: Box049
+    4300076: Object023
+    4300078: weed011
+    4300080: Box050
+    4300082: weed009
+    4300084: Box051
+    4300086: Box052
+    4300088: Box053
+    4300090: Box054
+    4300092: Box056
+    4300094: Box020
+    4300096: Box059
+    4300098: Box060
+    4300100: Box061
+    4300102: Cactus005
+    4300104: weed008
+    4300106: Box062
+    4300108: Box071
+    4300110: Box063
+    4300112: Object022
+    4300114: Box064
+    4300116: Cactus003
+    4300118: Box065
+    4300120: Plane002
+    4300122: Plane003
+    4300124: Plane004
+    4300126: Plane005
+    4300128: Box066
+    4300130: Cactus2
+    4300132: Box067
+    4300134: Box068
+    4300136: Platform
+    4300138: Platform
+    4300140: Rock
+    4300142: Platform
+    4300144: Platform
+    4300146: Grass
+    4300148: Platform
+    4300150: Platform
+    4300152: Platform
+    4300154: Platform
+    4300156: Platform
+    4300158: Cactus
+    4300160: Platform
+    4300162: Platform
+    4300164: Platform
+    4300166: Platform
+    4300168: Cactus
+    4300170: Branch
+    4300172: Platform
+    4300174: Platform
+    4300176: Platform
+    4300178: Platform
+    4300180: Platform
+    4300182: Grass
+    4300184: Platform
+    4300186: Platform
+    4300188: Platform
+    4300190: Grass
+    4300192: Platform
+    4300194: Rock
+    4300196: Grass
+    4300198: Platform
+    4300200: Platform
+    4300202: Platform
+    4300204: Platform
+    4300206: Rock
+    4300208: Platform
+    4300210: Rock
+    4300212: Grass
+    4300214: Platform
+    4300216: Grass
+    4300218: Platform
+    4300220: Platform
+    4300222: Platform
+    4300224: Platform
+    4300226: Platform
+    4300228: Platform
+    4300230: Platform
+    4300232: Platform
+    4300234: Platform
+    4300236: Cactus
+    4300238: Grass
+    4300240: Platform
+    4300242: Rock
+    4300244: Platform
+    4300246: Rock
+    4300248: Platform
+    4300250: Cactus
+    4300252: Platform
+    4300254: Platform
+    4300256: Cactus
+    4300258: Platform
+    4300260: Platform
+    7400000: Desert
+    9500000: //RootNode
+    11100000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Desert
+      takeName: Desert
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

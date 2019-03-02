@@ -5,13 +5,17 @@ public class WalkManager : MonoBehaviour {
 
 	public GameObject ScenePanel, DinoPanel, AnimationPanel;
 
-	[SerializeField]
 	private AnimationManager animManager;
 
-	[SerializeField]
+
 	private GameObject instantiateObject;
 
-
+	private void Start()
+	{
+		ScenePanel.SetActive(false);
+		DinoPanel.SetActive(false);
+		AnimationPanel.SetActive(false);
+	}
 
 	private void Update()
 	{
@@ -20,9 +24,7 @@ public class WalkManager : MonoBehaviour {
 		if(instantiateObject != null)
 		{
 			animManager = instantiateObject.GetComponent<AnimationManager>();
-
 		}
-
 	}
 
 	public void ReturnMenu()
@@ -51,9 +53,34 @@ public class WalkManager : MonoBehaviour {
 		ScenePanel.SetActive(false);
 	}
 
-	public void Move()
+	public void SelectIdle()
 	{
-		animManager.Move();
+		animManager.SceneIdle();
+	}
+
+	public void SelectWalk()
+	{
+		animManager.SceneWalk();
+	}
+
+	public void SelectRun()
+	{
+		animManager.SceneRun();
+	}
+
+	public void SelectJungle()
+	{
+		animManager.JungleScene();
+	}
+
+	public void SelectOpenArea()
+	{
+		animManager.OpenAreaScene();
+	}
+
+	public void SelectDesert()
+	{
+		animManager.DesertScene();
 	}
 
 }

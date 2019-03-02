@@ -4,67 +4,59 @@ using UnityEngine;
 
 public class AnimationManager : MonoBehaviour {
 
-	/*public ParallaxFx bgParallax;
-	public ParallaxFx floorParallax;
-	public ParallaxFx groundParallax;
+	//Treadmill Object
+	public GameObject jungleTreadmill, openareaTreadmill, desertTreadmill;
 
-	public UIManager uiManager;
+	//Treadmill Animation
+	public Animation jungleAnim, openareaAnim, desertAnim;
 
-	public GameObject trexIdle;
-	public GameObject trexWalk;
-	public GameObject trexRun;
-	public GameObject trexHunt;
+	//Animation Speed
+	public float idleSpeed;
+	public float walkSpeed;
+	public float runSpeed;
 
-
-	public void Walk()
+	public void SceneIdle()
 	{
-		trexWalk.SetActive(true);
-		trexRun.SetActive(false);
-		trexHunt.SetActive(false);
-		trexIdle.SetActive(false);
-
-		bgParallax.ScrollX = -0.075f;
-		floorParallax.ScrollX = 0.5f;
-		groundParallax.ScrollX = -1f;
-
-		uiManager.animChild.SetActive(false);
-
+		jungleAnim["Jungle"].speed = idleSpeed;
+		openareaAnim["OpenArea"].speed = idleSpeed;
+		desertAnim["Desert"].speed = idleSpeed;
 	}
 
-	public void Run()
+	public void SceneWalk()
 	{
-		trexWalk.SetActive(false);
-		trexRun.SetActive(true);
-		trexHunt.SetActive(false);
-		trexIdle.SetActive(false);
-
-		bgParallax.ScrollX = -0.2f;
-		floorParallax.ScrollX = 0.85f;
-		groundParallax.ScrollX = -1.75f;
-
-		uiManager.animChild.SetActive(false);	
-
+		jungleAnim["Jungle"].speed = walkSpeed;
+		openareaAnim["OpenArea"].speed = walkSpeed;
+		desertAnim["Desert"].speed = walkSpeed;
 	}
 
-	public void Hunt()
+	public void SceneRun()
 	{
-		trexWalk.SetActive(false);
-		trexRun.SetActive(false);
-		trexHunt.SetActive(true);
-		trexIdle.SetActive(false);
-
-		bgParallax.ScrollX = 0;
-		floorParallax.ScrollX = 0f;
-		groundParallax.ScrollX = 0f;
-
-		uiManager.animChild.SetActive(false);
-
-	}*/
-
-	public Animation test;
-
-	public void Move()
-	{
-		test.Play();
+		jungleAnim["Jungle"].speed = runSpeed;
+		openareaAnim["OpenArea"].speed = runSpeed;
+		desertAnim["Desert"].speed = runSpeed;
 	}
+
+	public void JungleScene()
+	{
+		jungleTreadmill.SetActive(true);
+		openareaTreadmill.SetActive(false);
+		desertTreadmill.SetActive(false);
+	}
+
+	public void OpenAreaScene()
+	{
+		jungleTreadmill.SetActive(false);
+		openareaTreadmill.SetActive(true);
+		desertTreadmill.SetActive(false);
+	}
+
+	public void DesertScene()
+	{
+		jungleTreadmill.SetActive(false);
+		openareaTreadmill.SetActive(false);
+		desertTreadmill.SetActive(true);
+	}
+
+
+
 }

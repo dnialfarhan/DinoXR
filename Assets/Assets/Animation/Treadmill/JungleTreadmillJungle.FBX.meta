@@ -1,0 +1,500 @@
+fileFormatVersion: 2
+guid: 73229e4de947cdd47b663b763dfd7efa
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cylinder001
+    100002: //RootNode
+    100004: Line001
+    100006: Mesh001
+    100008: Mesh002
+    100010: Mesh003
+    100012: Mesh004
+    100014: Object
+    100016: Object002
+    100018: Object003
+    100020: Object005
+    100022: Object007
+    100024: Object009
+    100026: Object010
+    100028: Object011
+    100030: Object013
+    100032: Object014
+    100034: Object016
+    100036: Object017
+    100038: Object019
+    100040: Object021
+    100042: Object023
+    100044: Object024
+    100046: Object026
+    100048: Object027
+    100050: Object028
+    100052: Object029
+    100054: Object030
+    100056: Object032
+    100058: Object033
+    100060: Object034
+    100062: Platform
+    100064: Platform 1
+    100066: Platform 10
+    100068: Platform 11
+    100070: Platform 12
+    100072: Platform 13
+    100074: Platform 14
+    100076: Platform 15
+    100078: Platform 16
+    100080: Platform 17
+    100082: Platform 18
+    100084: Platform 19
+    100086: Platform 2
+    100088: Platform 20
+    100090: Platform 21
+    100092: Platform 22
+    100094: Platform 23
+    100096: Platform 24
+    100098: Platform 25
+    100100: Platform 26
+    100102: Platform 27
+    100104: Platform 28
+    100106: Platform 29
+    100108: Platform 3
+    100110: Platform 30
+    100112: Platform 31
+    100114: Platform 32
+    100116: Platform 33
+    100118: Platform 34
+    100120: Platform 35
+    100122: Platform 36
+    100124: Platform 37
+    100126: Platform 38
+    100128: Platform 39
+    100130: Platform 4
+    100132: Platform 40
+    100134: Platform 41
+    100136: Platform 42
+    100138: Platform 43
+    100140: Platform 44
+    100142: Platform 5
+    100144: Platform 6
+    100146: Platform 7
+    100148: Platform 8
+    100150: Platform 9
+    400000: Cylinder001
+    400002: //RootNode
+    400004: Line001
+    400006: Mesh001
+    400008: Mesh002
+    400010: Mesh003
+    400012: Mesh004
+    400014: Object
+    400016: Object002
+    400018: Object003
+    400020: Object005
+    400022: Object007
+    400024: Object009
+    400026: Object010
+    400028: Object011
+    400030: Object013
+    400032: Object014
+    400034: Object016
+    400036: Object017
+    400038: Object019
+    400040: Object021
+    400042: Object023
+    400044: Object024
+    400046: Object026
+    400048: Object027
+    400050: Object028
+    400052: Object029
+    400054: Object030
+    400056: Object032
+    400058: Object033
+    400060: Object034
+    400062: Platform
+    400064: Platform 1
+    400066: Platform 10
+    400068: Platform 11
+    400070: Platform 12
+    400072: Platform 13
+    400074: Platform 14
+    400076: Platform 15
+    400078: Platform 16
+    400080: Platform 17
+    400082: Platform 18
+    400084: Platform 19
+    400086: Platform 2
+    400088: Platform 20
+    400090: Platform 21
+    400092: Platform 22
+    400094: Platform 23
+    400096: Platform 24
+    400098: Platform 25
+    400100: Platform 26
+    400102: Platform 27
+    400104: Platform 28
+    400106: Platform 29
+    400108: Platform 3
+    400110: Platform 30
+    400112: Platform 31
+    400114: Platform 32
+    400116: Platform 33
+    400118: Platform 34
+    400120: Platform 35
+    400122: Platform 36
+    400124: Platform 37
+    400126: Platform 38
+    400128: Platform 39
+    400130: Platform 4
+    400132: Platform 40
+    400134: Platform 41
+    400136: Platform 42
+    400138: Platform 43
+    400140: Platform 44
+    400142: Platform 5
+    400144: Platform 6
+    400146: Platform 7
+    400148: Platform 8
+    400150: Platform 9
+    2100000: No Name
+    2100002: Trunk
+    2100004: Green
+    2100006: Green_2
+    2100008: 'Material #22'
+    2100010: Trunk.001
+    2100012: _1defaultMat
+    2100014: Rock_6
+    2300000: Cylinder001
+    2300002: Mesh001
+    2300004: Mesh002
+    2300006: Mesh003
+    2300008: Mesh004
+    2300010: Object
+    2300012: Object002
+    2300014: Object003
+    2300016: Object005
+    2300018: Object007
+    2300020: Object009
+    2300022: Object010
+    2300024: Object011
+    2300026: Object013
+    2300028: Object014
+    2300030: Object016
+    2300032: Object017
+    2300034: Object019
+    2300036: Object021
+    2300038: Object023
+    2300040: Object024
+    2300042: Object026
+    2300044: Object027
+    2300046: Object028
+    2300048: Object029
+    2300050: Object030
+    2300052: Object032
+    2300054: Object033
+    2300056: Object034
+    2300058: Platform
+    2300060: Platform 1
+    2300062: Platform 10
+    2300064: Platform 11
+    2300066: Platform 12
+    2300068: Platform 13
+    2300070: Platform 14
+    2300072: Platform 15
+    2300074: Platform 16
+    2300076: Platform 17
+    2300078: Platform 18
+    2300080: Platform 19
+    2300082: Platform 2
+    2300084: Platform 20
+    2300086: Platform 21
+    2300088: Platform 22
+    2300090: Platform 23
+    2300092: Platform 24
+    2300094: Platform 25
+    2300096: Platform 26
+    2300098: Platform 27
+    2300100: Platform 28
+    2300102: Platform 29
+    2300104: Platform 3
+    2300106: Platform 30
+    2300108: Platform 31
+    2300110: Platform 32
+    2300112: Platform 33
+    2300114: Platform 34
+    2300116: Platform 35
+    2300118: Platform 36
+    2300120: Platform 37
+    2300122: Platform 38
+    2300124: Platform 39
+    2300126: Platform 4
+    2300128: Platform 40
+    2300130: Platform 41
+    2300132: Platform 42
+    2300134: Platform 43
+    2300136: Platform 44
+    2300138: Platform 5
+    2300140: Platform 6
+    2300142: Platform 7
+    2300144: Platform 8
+    2300146: Platform 9
+    3300000: Cylinder001
+    3300002: Mesh001
+    3300004: Mesh002
+    3300006: Mesh003
+    3300008: Mesh004
+    3300010: Object
+    3300012: Object002
+    3300014: Object003
+    3300016: Object005
+    3300018: Object007
+    3300020: Object009
+    3300022: Object010
+    3300024: Object011
+    3300026: Object013
+    3300028: Object014
+    3300030: Object016
+    3300032: Object017
+    3300034: Object019
+    3300036: Object021
+    3300038: Object023
+    3300040: Object024
+    3300042: Object026
+    3300044: Object027
+    3300046: Object028
+    3300048: Object029
+    3300050: Object030
+    3300052: Object032
+    3300054: Object033
+    3300056: Object034
+    3300058: Platform
+    3300060: Platform 1
+    3300062: Platform 10
+    3300064: Platform 11
+    3300066: Platform 12
+    3300068: Platform 13
+    3300070: Platform 14
+    3300072: Platform 15
+    3300074: Platform 16
+    3300076: Platform 17
+    3300078: Platform 18
+    3300080: Platform 19
+    3300082: Platform 2
+    3300084: Platform 20
+    3300086: Platform 21
+    3300088: Platform 22
+    3300090: Platform 23
+    3300092: Platform 24
+    3300094: Platform 25
+    3300096: Platform 26
+    3300098: Platform 27
+    3300100: Platform 28
+    3300102: Platform 29
+    3300104: Platform 3
+    3300106: Platform 30
+    3300108: Platform 31
+    3300110: Platform 32
+    3300112: Platform 33
+    3300114: Platform 34
+    3300116: Platform 35
+    3300118: Platform 36
+    3300120: Platform 37
+    3300122: Platform 38
+    3300124: Platform 39
+    3300126: Platform 4
+    3300128: Platform 40
+    3300130: Platform 41
+    3300132: Platform 42
+    3300134: Platform 43
+    3300136: Platform 44
+    3300138: Platform 5
+    3300140: Platform 6
+    3300142: Platform 7
+    3300144: Platform 8
+    3300146: Platform 9
+    4300000: Platform
+    4300002: Platform
+    4300004: Platform
+    4300006: Platform
+    4300008: Platform
+    4300010: Mesh003
+    4300012: Object029
+    4300014: Platform
+    4300016: Platform
+    4300018: Platform
+    4300020: Platform
+    4300022: Platform
+    4300024: Platform
+    4300026: Platform
+    4300028: Platform
+    4300030: Object016
+    4300032: Object033
+    4300034: Platform
+    4300036: Platform
+    4300038: Platform
+    4300040: Platform
+    4300042: Platform
+    4300044: Platform
+    4300046: Platform
+    4300048: Platform
+    4300050: Platform
+    4300052: Platform
+    4300054: Platform
+    4300056: Platform
+    4300058: Platform
+    4300060: Platform
+    4300062: Platform
+    4300064: Platform
+    4300066: Cylinder001
+    4300068: Platform
+    4300070: Object
+    4300072: Platform
+    4300074: Object002
+    4300076: Object003
+    4300078: Platform
+    4300080: Object005
+    4300082: Platform
+    4300084: Object007
+    4300086: Platform
+    4300088: Object009
+    4300090: Object010
+    4300092: Object011
+    4300094: Platform
+    4300096: Object013
+    4300098: Object014
+    4300100: Platform
+    4300102: Platform
+    4300104: Mesh001
+    4300106: Object017
+    4300108: Platform
+    4300110: Platform
+    4300112: Object019
+    4300114: Object034
+    4300116: Platform
+    4300118: Object021
+    4300120: Platform
+    4300122: Object023
+    4300124: Object024
+    4300126: Platform
+    4300128: Object027
+    4300130: Object026
+    4300132: Platform
+    4300134: Mesh002
+    4300136: Object028
+    4300138: Platform
+    4300140: Mesh004
+    4300142: Object030
+    4300144: Platform
+    4300146: Object032
+    7400000: Jungle
+    9500000: //RootNode
+    11100000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Jungle
+      takeName: Jungle
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

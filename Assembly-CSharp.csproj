@@ -203,6 +203,7 @@
     <Compile Include="Assets\Scripts\CharacterSelection.cs" />
     <Compile Include="Assets\Scripts\DinoSelfie.cs" />
     <Compile Include="Assets\Scripts\FossilRaycast.cs" />
+    <Compile Include="Assets\Scripts\HideCollider.cs" />
     <Compile Include="Assets\Scripts\HomeUI.cs" />
     <Compile Include="Assets\Scripts\MainUI.cs" />
     <Compile Include="Assets\Scripts\ParallaxFx.cs" />

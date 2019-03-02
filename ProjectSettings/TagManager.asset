@@ -20,6 +20,7 @@ TagManager:
   - ExcavationElm
   - Ammonite
   - Elm
+  - Hide
   layers:
   - Default
   - TransparentFX
