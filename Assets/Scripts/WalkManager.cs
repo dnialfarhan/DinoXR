@@ -5,9 +5,10 @@ public class WalkManager : MonoBehaviour {
 
 	public GameObject ScenePanel, DinoPanel, AnimationPanel;
 
+	[SerializeField]
 	private AnimationManager animManager;
 
-
+	[SerializeField]
 	private GameObject instantiateObject;
 
 	private void Start()

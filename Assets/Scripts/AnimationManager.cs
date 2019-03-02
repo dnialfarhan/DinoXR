@@ -20,6 +20,11 @@ public class AnimationManager : MonoBehaviour {
 		jungleAnim["Jungle"].speed = idleSpeed;
 		openareaAnim["OpenArea"].speed = idleSpeed;
 		desertAnim["Desert"].speed = idleSpeed;
+		Debug.Log("Idle Pressed");
+
+		jungleAnim.Play();
+		openareaAnim.Play();
+		desertAnim.Play();
 	}
 
 	public void SceneWalk()
@@ -27,6 +32,11 @@ public class AnimationManager : MonoBehaviour {
 		jungleAnim["Jungle"].speed = walkSpeed;
 		openareaAnim["OpenArea"].speed = walkSpeed;
 		desertAnim["Desert"].speed = walkSpeed;
+		Debug.Log("Walk Pressed");
+
+		jungleAnim.Play();
+		openareaAnim.Play();
+		desertAnim.Play();
 	}
 
 	public void SceneRun()
@@ -34,6 +44,11 @@ public class AnimationManager : MonoBehaviour {
 		jungleAnim["Jungle"].speed = runSpeed;
 		openareaAnim["OpenArea"].speed = runSpeed;
 		desertAnim["Desert"].speed = runSpeed;
+		Debug.Log("Run Pressed");
+
+		jungleAnim.Play();
+		openareaAnim.Play();
+		desertAnim.Play();
 	}
 
 	public void JungleScene()
