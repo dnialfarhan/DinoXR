@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/dania/Desktop/VRDP2/DinoXR/DinoXR_v29.apk
+C:/Users/dania/Desktop/VRDP2/DinoXR/DinoXR_v31.apk
 SceneListBegin?
 Assets/Scene/Home/Home.unity
 Assets/Scene/Level1/Level1_SelfieSelection.unity
