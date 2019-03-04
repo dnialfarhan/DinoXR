@@ -3894,6 +3894,57 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.65118414, y: 1.5629382, z: 0.30622846}
   m_Center: {x: -0.0012547096, y: -0.46967837, z: -0.017668221}
+--- !u!1001 &1337708993
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4850465116622980, guid: daf2affdbf66cac42993f074d6f417f2, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4850465116622980, guid: daf2affdbf66cac42993f074d6f417f2, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4850465116622980, guid: daf2affdbf66cac42993f074d6f417f2, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4850465116622980, guid: daf2affdbf66cac42993f074d6f417f2, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4850465116622980, guid: daf2affdbf66cac42993f074d6f417f2, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4850465116622980, guid: daf2affdbf66cac42993f074d6f417f2, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4850465116622980, guid: daf2affdbf66cac42993f074d6f417f2, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4850465116622980, guid: daf2affdbf66cac42993f074d6f417f2, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717609808712166, guid: daf2affdbf66cac42993f074d6f417f2, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23770606277076482, guid: daf2affdbf66cac42993f074d6f417f2,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 90e28bc1c09ef2a41ad991d7918a0e2f, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: daf2affdbf66cac42993f074d6f417f2, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1340284855
 GameObject:
   m_ObjectHideFlags: 0

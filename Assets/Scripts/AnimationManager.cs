@@ -4,51 +4,86 @@ using UnityEngine;
 
 public class AnimationManager : MonoBehaviour {
 
+	//Trex Object
+	public GameObject trexWalk, trexRun, trexHunt, trexStay;
+
+	//Trex Animation
+	public Animation walkAnim, runAnim, huntAnim;
+
+	//Trex Animation Speed
+	public float trexrunSpeed;
+	
 	//Treadmill Object
 	public GameObject jungleTreadmill, openareaTreadmill, desertTreadmill;
 
 	//Treadmill Animation
 	public Animation jungleAnim, openareaAnim, desertAnim;
 
-	//Animation Speed
-	public float idleSpeed;
-	public float walkSpeed;
-	public float runSpeed;
+	//Treadmill Animation Speed
+	public float idleSpeed = 0.0f;
+	public float walkSpeed = -0.35f;
+	public float runSpeed = -1.0f;
+
+	//Info Panel
+	public GameObject InfoPanel;
+
 
 	public void SceneIdle()
 	{
+		
 		jungleAnim["Jungle"].speed = idleSpeed;
-		openareaAnim["OpenArea"].speed = idleSpeed;
-		desertAnim["Desert"].speed = idleSpeed;
-		Debug.Log("Idle Pressed");
+		this.jungleAnim.Play();
 
-		jungleAnim.Play();
-		openareaAnim.Play();
-		desertAnim.Play();
+		openareaAnim["OpenArea"].speed = idleSpeed;
+		this.openareaAnim.Play();
+
+		desertAnim["Desert"].speed = idleSpeed;
+		this.desertAnim.Play();
+
+		//Trex Object
+		trexStay.SetActive(false);
+		trexWalk.SetActive(false);
+		trexRun.SetActive(false);
+		trexHunt.SetActive(true);
 	}
 
 	public void SceneWalk()
 	{
-		jungleAnim["Jungle"].speed = walkSpeed;
-		openareaAnim["OpenArea"].speed = walkSpeed;
-		desertAnim["Desert"].speed = walkSpeed;
-		Debug.Log("Walk Pressed");
 
-		jungleAnim.Play();
-		openareaAnim.Play();
-		desertAnim.Play();
+		jungleAnim["Jungle"].speed = walkSpeed;
+		this.jungleAnim.Play();
+
+		openareaAnim["OpenArea"].speed = walkSpeed;
+		this.openareaAnim.Play();
+
+		desertAnim["Desert"].speed = walkSpeed;
+		this.desertAnim.Play();
+
+		//Trex Object
+		trexStay.SetActive(false);
+		trexWalk.SetActive(true);
+		trexRun.SetActive(false);
+		trexHunt.SetActive(false);
 	}
 
 	public void SceneRun()
 	{
-		jungleAnim["Jungle"].speed = runSpeed;
-		openareaAnim["OpenArea"].speed = runSpeed;
-		desertAnim["Desert"].speed = runSpeed;
-		Debug.Log("Run Pressed");
+		runAnim["DinoRun"].speed = trexrunSpeed;
 
-		jungleAnim.Play();
-		openareaAnim.Play();
-		desertAnim.Play();
+		jungleAnim["Jungle"].speed = runSpeed;
+		this.jungleAnim.Play();
+
+		openareaAnim["OpenArea"].speed = runSpeed;
+		this.openareaAnim.Play();
+
+		desertAnim["Desert"].speed = runSpeed;
+		this.desertAnim.Play();
+
+		//Trex Object
+		trexStay.SetActive(false);
+		trexWalk.SetActive(false);
+		trexRun.SetActive(true);
+		trexHunt.SetActive(false);
 	}
 
 	public void JungleScene()
@@ -72,6 +107,14 @@ public class AnimationManager : MonoBehaviour {
 		desertTreadmill.SetActive(true);
 	}
 
+	public void OpenInfo()
+	{
+		InfoPanel.SetActive(true);
+	}
 
+	public void CloseInfo()
+	{
+		InfoPanel.SetActive(false);
+	}
 
 }

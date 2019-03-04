@@ -12,6 +12,7 @@
         Pass
         {
             ZWrite Off
+			Cull Off
 
             GLSLPROGRAM
 
