@@ -31,6 +31,11 @@ public class WalkManager : MonoBehaviour {
 		SceneManager.LoadScene("Home");
 	}
 
+	public void Setting()
+	{
+		SceneManager.LoadScene("Setting");
+	}
+
 	public void ExpandScene()
 	{
 		ScenePanel.SetActive(true);
