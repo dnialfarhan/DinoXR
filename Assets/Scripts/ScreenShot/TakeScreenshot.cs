@@ -7,6 +7,7 @@ public class TakeScreenshot : MonoBehaviour {
 	[SerializeField]
 	GameObject blink;
 	public Canvas canvasUI;
+	public AudioSource shutter;
 
 	public void TakeAShot()
 	{
@@ -26,6 +27,7 @@ public class TakeScreenshot : MonoBehaviour {
 		blink.SetActive(true);
 		yield return new WaitForSeconds(0.2f);
 		blink.SetActive(false);
+		shutter.Play();
 	
 	}
 

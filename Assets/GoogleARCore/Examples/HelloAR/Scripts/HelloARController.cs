@@ -86,6 +86,7 @@ namespace GoogleARCore.Examples.HelloAR
 
 		//DinoXR
 		public GameObject inventoryUI, textUI;
+		public GameObject safetyText;
 
 
 		/// <summary>
@@ -190,6 +191,7 @@ namespace GoogleARCore.Examples.HelloAR
 						//DinoXR
 						inventoryUI.SetActive(true);
 						textUI.SetActive(true);
+						safetyText.SetActive(true);
 					}
 
 					// Make Andy model a child of the anchor.

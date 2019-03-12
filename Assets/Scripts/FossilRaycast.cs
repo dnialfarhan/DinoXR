@@ -24,6 +24,9 @@ public class FossilRaycast : MonoBehaviour {
 	//Animation Speed
 	public float animSpeed = 1.5f;
 
+	//Audio Source
+	public AudioSource fossilplaceSFX;
+
 	void Start()
 	{
 		excavateJaw["shovelAnim"].speed = animSpeed;
@@ -74,6 +77,7 @@ public class FossilRaycast : MonoBehaviour {
 					jawWire.SetActive(false);
 					jawReal.SetActive(true);
 					jawBttn.SetActive(false);
+					fossilplaceSFX.Play();
 				}
 
 				if (hitInfo.collider.tag == "FemurButton")
@@ -81,6 +85,7 @@ public class FossilRaycast : MonoBehaviour {
 					femurWire.SetActive(false);
 					femurReal.SetActive(true);
 					femurBttn.SetActive(false);
+					fossilplaceSFX.Play();
 				}
 
 				if (hitInfo.collider.tag == "TailButton")
@@ -88,6 +93,7 @@ public class FossilRaycast : MonoBehaviour {
 					tailWire.SetActive(false);
 					tailReal.SetActive(true);
 					tailBttn.SetActive(false);
+					fossilplaceSFX.Play();
 				}
 
 				if (jawReal.activeInHierarchy == true && femurReal.activeInHierarchy == true 

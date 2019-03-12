@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class MainUI : MonoBehaviour {
 
 	public GameObject jawInfo, femurInfo, tailInfo, ammoniteInfo, elmInfo;
 
 	public GameObject level3Info;
+
 
 	public void Home()
 	{
