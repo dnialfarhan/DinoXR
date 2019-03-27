@@ -1,4 +1,0 @@
-#Wed Mar 13 01:09:17 SGT 2019
-base.0=C\:\\Users\\dania\\Desktop\\VRDP2\\DinoXR\\Temp\\gradleOut\\build\\intermediates\\transforms\\dex\\release\\0
-path.0=classes.dex
-renamed.0=classes.dex
